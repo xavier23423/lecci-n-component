@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>boton</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- Botón Primario: Enviar un formulario -->
+  <ion-button expand="full" color="primary" (click)="enviarFormulario()">Enviar Formulario</ion-button>
+  
+  <!-- Botón Secundario: Cancelar operación -->
+  <ion-button expand="full" color="secondary" (click)="cancelarOperacion()">Cancelar</ion-button>
+  
+  <!-- Botón Terciario: Mostrar información -->
+  <ion-button expand="full" color="tertiary" (click)="mostrarInformacion()">Mostrar Información</ion-button>
+</ion-content>
+

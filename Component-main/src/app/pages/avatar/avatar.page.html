@@ -1,0 +1,28 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Avatar</ion-title>
+    <ion-buttons slot="end">
+      <ion-avatar>
+        <img src="/assets/sin rostro.jfif">
+      </ion-avatar>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- Aquí puedes agregar el contenido que desees -->
+  <div style="display: flex; justify-content: center; align-items: center; height: 100%; flex-direction: column;">
+    <ion-chip color="primary" *ngFor="let i of [1, 1, 1]">
+      <ion-avatar>
+        <img src="/assets/sin rostro.jfif">
+      </ion-avatar>
+      <ion-label>Xavier Carvache</ion-label>
+    </ion-chip>
+  </div>
+</ion-content>
+```
+
